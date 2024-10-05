@@ -28,6 +28,8 @@ def print_card_name(card_rank):
 
  if card_rank == 1 or card_rank == 8:
    print('Drew an ' + card_name)
+ elif card_rank < 1 or card_rank > 13:
+   print('BAD CARD')
  else:
    print('Drew a ' + card_name)
 
