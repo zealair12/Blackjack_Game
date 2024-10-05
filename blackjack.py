@@ -15,8 +15,8 @@ print_end_turn_status(user_hand)
 # Dealer's Turn
 dealer_hand = draw_starting_hand("DEALER")
 while dealer_hand < 17:
-    dealer_hand += draw_card()
-    
+    print(f'Dealer has {dealer_hand}')
+    dealer_hand += draw_card()  
 print_end_turn_status(dealer_hand)
 
 # Determine Game Result
